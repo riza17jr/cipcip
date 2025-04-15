@@ -20,7 +20,8 @@ fi
 sudo curl https://raw.githubusercontent.com/ilyasbit/ss-easy-setup/main/install-only.sh | sudo bash -s
 mkdir -p /etc/shadowsocks/
 rm -rf cloud-iprotate/
-git clone https://github.com/ilyasbit/cloud-iprotate.git
+git clone --branch dev https://github.com/ilyasbit/cloud-iprotate.git
+
 
 mv cloud-iprotate /opt/
 cd /opt/cloud-iprotate/
